@@ -13,6 +13,7 @@ MERGED from [:react-native-fetch-blob] F:\Ravi Bhati\OiviHackathon\node_modules\
 MERGED from [:react-native-gesture-handler] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-video\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-zip-archive] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-zip-archive\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\463b48af6821d43be5772acf80a9d9b6\jetified-react-native-0.63.4\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\37b6f551bc5ae153b0b627de8f563815\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -60,6 +61,7 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Bhavesh Bhati\.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\4da6ddd3c71dbaec92b0fdf3bbca4ce7\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\2ef959591ee3dfd7e7d0f130ebacb270\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\babedcb26ba2505096ea9fb87ec93180\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\603e61b93f38cad675b3f1f5287f509f\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\fc49fabc04047ad32b249465bce7a151\jetified-fbcore-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\c114d4501470930b3986c4f9bd2da0fd\ui-common-2.2.0\AndroidManifest.xml:2:1-9:12
 INJECTED from F:\Ravi Bhati\OiviHackathon\android\app\src\debug\AndroidManifest.xml:2:1-8:12
@@ -184,6 +186,8 @@ MERGED from [:react-native-safe-area-context] F:\Ravi Bhati\OiviHackathon\node_m
 MERGED from [:react-native-safe-area-context] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-video\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-video\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-zip-archive] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-zip-archive\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-zip-archive] F:\Ravi Bhati\OiviHackathon\node_modules\react-native-zip-archive\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\463b48af6821d43be5772acf80a9d9b6\jetified-react-native-0.63.4\AndroidManifest.xml:7:5-9:41
@@ -278,6 +282,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Bhavesh 
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\2ef959591ee3dfd7e7d0f130ebacb270\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\babedcb26ba2505096ea9fb87ec93180\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\babedcb26ba2505096ea9fb87ec93180\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\603e61b93f38cad675b3f1f5287f509f\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\603e61b93f38cad675b3f1f5287f509f\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\fc49fabc04047ad32b249465bce7a151\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\fc49fabc04047ad32b249465bce7a151\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\Bhavesh Bhati\.gradle\caches\transforms-2\files-2.1\c114d4501470930b3986c4f9bd2da0fd\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
