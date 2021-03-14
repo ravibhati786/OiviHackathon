@@ -1,22 +1,12 @@
 import { useNavigation } from '@react-navigation/core';
 import React, {useState} from 'react';
 import { View, TextInput, Button, ActivityIndicator, PermissionsAndroid }  from 'react-native';
-import { useDispatch, useSelector} from 'react-redux'
-import { useEffect } from 'react/cjs/react.development';
-import Loader from '../Loader'
-import {fetchURLs, saveId, fetchFiles} from '../actions/userActions'
 
 function FirstView({navigation}) {
-  
     const {navigate} = useNavigation()
-    const [pId, setPID] = useState('')
-    const dispatch = useDispatch()
+    const [pId, setPID] = useState()
+    const [isLoading, setIsLoading] = useState(false)
 
-    const fetchedURL = useSelector(state => state.fetchedURL)
-    const { error, loading, userURL} = fetchedURL
-
-    const listFiles = useSelector(state => state.fetchedFiles)
-    const {userFiles} = listFiles
     
     async function requestWriteStoragePermission() {
     try {
@@ -64,27 +54,18 @@ function FirstView({navigation}) {
     }
   };
 
-  useEffect(() => {
-    if(userURL) {
-      if(userFiles){
-        navigation.navigate('Second')
-      }
-    }
-  })
-
     const onSubmit = () => {
-
-        requestWriteStoragePermission();
-        requestReadStoragePermission();
-        dispatch(saveId(pId));
-        dispatch(fetchURLs(pId));
-        dispatch(fetchFiles(userURL, pId));
-        console.log("onSubmit complete")
-        
+        requestWriteStoragePermission()
+        requestReadStoragePermission()
+        navigation.navigate('Second', {pId:pId})
     }
+
+    
+
+    
+
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        {loading && <Loader/>}
         <TextInput
             style={{height: 40, borderColor: 'gray', borderBottomWidth: 1 }}
             placeholder="Please Enter Person Id "
@@ -98,7 +79,9 @@ function FirstView({navigation}) {
             color="green"
         />
         </View>
-        
+        <View style={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0 }}>
+              <ActivityIndicator animating={isLoading} size="small" color="#00ff00" />
+        </View>
       </View>
     );
 }

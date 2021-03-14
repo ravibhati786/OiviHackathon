@@ -6,13 +6,16 @@ import Video from 'react-native-video';
 export default function VPage( {route, navigation}) {
     const {vLink} = route.params
     return (
-        <View>
+        <View style={{flex:1}}>
                 
               <Video
-              source={{vLink}}
-              ref={(ref) => {
-                  this.player = ref
-              }}        
+              source={{uri:'file:///storage/emulated/0/Pictures/Oivi/p1/1/recording.mp4'}}
+              resizeMode="cover"
+              style={{
+                aspectRatio: 1,
+                width: "100%"
+              }}
+              controls={true}
               />
             
         </View>
@@ -23,6 +26,13 @@ export default function VPage( {route, navigation}) {
 }
 
 const styles = StyleSheet.create({
+    backgroundVideo: {
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      bottom: 0,
+      right: 0,
+    },
     container: {
       paddingTop: 50,
     },

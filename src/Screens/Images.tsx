@@ -1,19 +1,22 @@
 import React from 'react';
 import {Image, View, StyleSheet, TouchableOpacity} from 'react-native';
 import { nativeViewProps } from 'react-native-gesture-handler/lib/typescript/handlers/NativeViewGestureHandler';
+import { useNavigation } from '@react-navigation/native';
 
-export default function Images( {images, navigation}) {
-
+export default function Images( {images}) {
+    const navigation = useNavigation();
+  
+    console.log("images in images component",images)
     return (
-        <View>
+        <View style={styles.container}>
             {images && images.map(item => {
-          console.log("item log ",item)
+            console.log("item log ",item)
             return (
-            <TouchableOpacity onPress={navigation.navigate('Video', {vLink:'file://'+item})}>    
+             <TouchableOpacity onPress={navigation.navigate('Video', {vLink:'file://'+item+'recording.mp4'})}>    
               <Image
               key={item}
               style={styles.retinaImg}
-              source={{uri: 'file://'+item,}}
+              source={{uri: 'file://'+item+'retina.png',}}
               />
             </TouchableOpacity>
             )
@@ -28,16 +31,16 @@ export default function Images( {images, navigation}) {
 
 const styles = StyleSheet.create({
     container: {
-      paddingTop: 50,
+      flex:1,
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      
     },
     retinaImg: {
-      width: 100,
-      height: 100,
+      width: 150,
+      height: 150,
     },
-    logo: {
-      width: 66,
-      height: 58,
-    },
+
   });
 
 
